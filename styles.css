@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2rem;
+    padding: 0;
+}
+
+div{
+    border: 0.8rem solid black;
+    padding: 2em;
+    margin: 2em;
+}
+
+.grandparent{
+    background: lightcoral;
+}
+
+.parent{
+    display: flex;
+    background: lawngreen;
+}
+
+.child{
+    background: deepskyblue;
+    flex-grow: 1;
+    min-height: 10rem;
+}
