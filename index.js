@@ -3,7 +3,8 @@
 //const parents = document.getElementsByClassName("parent")
 //const children = document.querySelectorAll(".child");
 const chileOne = document.querySelector("#child-one");
-const parent = chileOne.parentElement;
+const parent = chileOne.closest(".grandparent");
+
 function changeColor(element){
     element.style.background = '#333';
 }
